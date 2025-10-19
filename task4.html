@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites Restaurant</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <!-- FLEXBOX: Header -->
+    <header>
+        <div class="restaurant-name">🍴 Curry-ocity</div>
+        <nav>
+            <ul class="menu-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FLEXBOX: Banner -->
+    <section class="banner" id="home">
+        <div class="banner-content">
+            <h1>Delicious Food</h1>
+            <p>Experience the finest dining in town</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <!-- CSS GRID: Menu -->
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="dish-icon">🥘</div>
+                <h3>Puttu and Kadala Curry</h3>
+                <p>Steamed rice cake with spicy black chickpea curry</p>
+                <div class="price">₹120</div>
+            </div>
+            <div class="menu-item">
+                <div class="dish-icon">🫓</div>
+                <h3>Appam with Stew</h3>
+                <p>Soft rice pancakes served with creamy vegetable stew</p>
+                <div class="price">₹150</div>
+            </div>
+            <div class="menu-item">
+                <div class="dish-icon">🍛</div>
+                <h3>Malabar Biryani</h3>
+                <p>Fragrant rice layered with spiced meat and aromatic spices</p>
+                <div class="price">₹250</div>
+            </div>
+            <div class="menu-item">
+                <div class="dish-icon">🐟</div>
+                <h3>Karimeen Pollichathu</h3>
+                <p>Pearl spot fish marinated and wrapped in banana leaf</p>
+                <div class="price">₹350</div>
+            </div>
+            <div class="menu-item">
+                <div class="dish-icon">🍗</div>
+                <h3>Nadan Kozhi Varuthathu</h3>
+                <p>Traditional spicy Kerala chicken fry with authentic spices</p>
+                <div class="price">₹180</div>
+            </div>
+            <div class="menu-item">
+                <div class="dish-icon">🥞</div>
+                <h3>Appam with Egg Curry</h3>
+                <p>Fluffy rice pancakes paired with rich Kerala egg curry</p>
+                <div class="price">₹130</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLEXBOX: Features -->
+    <section class="features">
+        <h2>Why Choose Us</h2>
+        <div class="features-flex">
+            <div class="feature">
+                <div class="feature-icon">👨‍🍳</div>
+                <h3>Expert Chefs</h3>
+                <p>Our team of professional chefs brings years of culinary expertise</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🌿</div>
+                <h3>Fresh Ingredients</h3>
+                <p>We use only the freshest locally sourced ingredients</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⭐</div>
+                <h3>Quality Service</h3>
+                <p>Exceptional service that makes every visit memorable</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS GRID: Gallery -->
+    <section class="gallery" id="gallery">
+        <h2>Our Gallery</h2>
+        <div class="photo-grid">
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+            <div class="photo"></div>
+        </div>
+    </section>
+
+    <!-- FLEXBOX: Contact -->
+
+<section class="contact" id="contact">
+    <div>
+        <h2>Visit Us</h2>
+        <div class="contact-flex">
+            <!-- Left: Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>123 Food Street, Downtown</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <span>(555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⏰</span>
+                    <span>Open Daily: 11AM - 10PM</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <span>info@tastybites.com</span>
+                </div>
+            </div>
+
+            <!-- Right: Contact Form -->
+            <div class="contact-form">
+                <h3>Get In Touch</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- FLEXBOX: Footer -->
+    <footer>
+        <p>&copy; 2025 Curry-ocity Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
